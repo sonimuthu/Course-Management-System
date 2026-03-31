@@ -1,4 +1,4 @@
-gitFROM tomcat:9.0
+FROM tomcat:9.0
 
 # Remove default apps
 RUN rm -rf /usr/local/tomcat/webapps/*
